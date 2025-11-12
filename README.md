@@ -91,19 +91,14 @@
 <summary>最终优化版提示词（2025年11月12日 17:11:58）</summary>
 
 ```Markdown
-
 迭代优化升级中心思想规则：你比如想迭代升级优化或者是新建某个功能节点等等的，你先得查阅全面审查这个项目是否已经有这个功能了？那么有这个功能了我们是否能看到他的质量和能力以及效率？那么看了质量、效率等等多维度分析的话，那么我们是否真的要重新新建文件出来呢？是需要改太多东西还是换方法呢？还有就是新建文件之后呢是否完全取代呢？能否再次对比一下两个代码的质量能力等等多个维度呢？？？那么旧文件是否能正确被清理呢？那么就是我们自己干嘛不反思一下呢？就好比如1++1=2大家都知道，那么有没有可能我们可以用到最优最高级最先进最现实最完美的方式方法方案呢？比如你计算1+1=2可能没考虑到1+2=多少这个事情对吧？那么我们是否能自主扩散思想思维想法等等的呢？每一步都要值得反思沉思。
-
 你务必先给我这些指令需求等等先列出任务清单plan，然后呢在执行第一项的时候再次精细这项，就好像一个总清单然后呢单个清单再次细分问题需求等等的，默认你自动继续自动开始，无需用户指示，你都按照最好最先进最优的方案来。务必先行自动了解项目结构等等的，不要出现一些无用的文件占用，可以先清理先预览所有文件子文件夹子文件来先行清理，始终保持项目的整洁和规范
-
 你可以保持一个逆向思维、第一性原理等等的，先反思整体的需求需要等等，接着呢在进行就是查看目前已有的项目是否有实现？如有实现你就查看实现的代码，然后看看要如何改进优化升级？别记得把旧版本清理了哈。然后就是说一定要想着就是比如每个节点每个功能节点是不是有更好的方法等等的呢？然后自行扩展延伸其他更好更有用的其他功能，不局限于单纯的指令需求，可以自我延伸扩展升级
 我目前是正在迭代优化改良改进修复升级在iflow的cli的工作流，你懂我的意思吗？你大概可以查看一下知识库1.0文件的内容看看人家是怎么做工作流的。应该没错都是要在.iflow文件夹内的把？？然后你要知道iflow cli是如何工作的，是如何运行的，我们作为开发者应该把功能或者是智能体等等工作流写在哪里他才能正确读取调用工具功能等等的。这个你务必知道，不管你用什么方式，你可以联网搜他们的GitHub开源仓库这样比较准确吗？还是看他们的开发者社区论坛等等的。了解完你的角色身份之后呢你接下来：
 请你继续迭代目前这个工作流，并且符合这个主题中心思想：所有的工具智能体工作流等等都要在.iflow这个文件夹内，你可以先看看人家官方这个.iflow的实现等等的，清楚了解人家官方的cli是如何工作的等等
 你要符合就行，不一定要一直创建创造新的同样文件出来，这样会让项目臃肿，在我这些主题的需求等等来看你先一步打印项目结构的完整项目结构包括子文件夹和子文件就行了，接着我们在匹配是否有说到点上？又或者哪个技术点需要改进都可以写进清单，跟随后面的指令在优化改进等等的，就是也要伴随出测试、效果反馈等等的那些。我的主题：
 首选确保工作流能正确适配市面上所有llm模型等等其他所有万能大模型等等的，并且匹配精度调用工具等等那些都没问题，并且总体要让工作流质量、速度、效率、能力、工具的使用等等效果翻倍，无bug，让大模型能清楚清晰精准运用到，兼容性全面性适配性都要最顶级闭源同款一样的
 你可以参考一下我目录下有文件是工作流1.0知识库和智能体1.0知识库文件，并且在他们基础上去改进优化等等的，并且总体来说要让最终工作流变得完美无bug，可用，他可能比较大，你一次全部摄入感觉会爆掉上下文，你看看要如何搜索读取会比较好，你可以参考知识库的知识来帮我改进。比如这边给你这个知识库读取的方法你可以参考参考
-
-
 我感觉目前的能力还是不足，比如你看这组数据举例（这可能是我之前的版本，但是现版本未进行测试，你可以先行简单测试一下然后呢在进行修复提升迭代升级等等的，这个是可以加入todo、plan任务清单的）：
 增强后的万金油能力矩阵
 维度	当前能力	增强后能力	提升幅度
@@ -113,9 +108,8 @@
 错误预防	基础验证	预测性错误检测	+45%
 适应性	固定模板	环境自适应配置	+55%
 维护性	基础文档	智能文档生成 + 更新	+35%
-
 当然我也给你一个我前几个版本的举例（这只是举例，实际你必须要从我举例的角度去自由想象，扩展你的想法和思路）：
-🔍 当前工作流的不足分析
+ 当前工作流的不足分析
 1. 质量维度不足点
 代码质量
 <TYPESCRIPT>
@@ -168,7 +162,6 @@ class AICodeAssistant {
   async generateComponent(prompt: string): Promise<string> {
     // 调用AI API生成组件代码
   }
-  
   async optimizeCode(code: string): Promise<string> {
     // AI代码优化建议
   }
@@ -199,7 +192,6 @@ class SmartCodeGenerator {
     // - 前端组件
     // - 测试用例
   }
-  
   async generateComponent(componentType: string, props: any): Promise<string> {
     // AI驱动的组件生成
   }
@@ -229,11 +221,9 @@ class AdaptiveConfig {
     // 自动检测运行环境
     // 开发/测试/生产
   }
-  
   async generateOptimalConfig(): Promise<ProjectConfig> {
     const env = await this.detectEnvironment();
     const requirements = await this.analyzeRequirements();
-    
     return {
       // 根据环境和需求生成最优配置
       build: this.optimizeBuildConfig(env, requirements),
@@ -251,10 +241,8 @@ class ErrorPreventionSystem {
     const issues = await this.staticAnalysis();
     const securityIssues = await this.securityScan();
     const performanceIssues = await this.performanceCheck();
-    
     return [...issues, ...securityIssues, ...performanceIssues];
   }
-  
   async intelligentErrorHandling(error: Error): Promise<Solution> {
     // AI驱动的错误解决方案推荐
     return await this.aiSolver.solve(error);
@@ -279,13 +267,11 @@ interface PerformanceSuggestion {
 <TYPESCRIPT>
 class LearningSystem {
   private patterns: DevelopmentPattern[] = [];
-  
   async learnFromProject(project: Project): Promise<void> {
     // 分析项目模式，优化后续生成
     const patterns = await this.extractPatterns(project);
     this.patterns.push(...patterns);
   }
-  
   async suggestImprovements(): Promise<Suggestion[]> {
     // 基于学习到的模式提供改进建议
     return this.patterns.map(pattern => 
@@ -293,8 +279,6 @@ class LearningSystem {
     );
   }
 }
-
-
 这些基础上还要去增强哈，比如：
 自学习能力：从每个项目中学习并优化
 自适应能力：根据项目需求自动调整配置
@@ -317,7 +301,6 @@ AI集成：代码生成、优化、审查
 冷启动：智能依赖管理
 运行时：自适应性能调优
 构建时：并行处理 + 缓存优化
-
 比如还有：
 一、 战略规划与需求工程增强 (The "What" & "Why")
 目标： 在编码开始前，确保项目与业务目标一致，并识别所有潜在风险。
@@ -347,8 +330,124 @@ AI集成：代码生成、优化、审查
 并行化与并发	任务图依赖分析	AI 在规划阶段，构建一个任务依赖图。例如：authService 依赖 AppError 和 auth.ts。然后，AI 并行执行所有无依赖的任务，大幅缩短总耗时。	高并发执行效率：从串行执行升级为并行执行，直接提升速度。
 情境感知与风格迁移	代码风格自适应	允许用户输入一个“风格指南”（如“使用函数式编程风格”或“使用面向对象设计模式”），AI 能够根据此风格调整生成的代码结构和模式。	风格通用性：适应不同团队和项目的编码规范。
 自我评估与信心评分	输出信心指数	在每次生成代码或报告后，AI 附带一个信心评分（例如：95%）。如果评分低于 80%，AI 会自动触发一个“二次检查”或“搜索验证”步骤。	决策透明度：让用户了解 AI 输出的可靠性，并指导 AI 在低信心时进行自我修正。
+以及你还能参考这个：
+ARQ V2.0 与意识流 (代码草稿)
+我将聚焦于ARCK和意识流的实现，以解决您提出的**“长对话遗忘”和“规则偏离”**的根本问题。
+1. 意识流与长期记忆 (core/consciousness_stream.py)
+该模块将作为所有Agent的全局状态中心，记录关键决策、情绪状态（抽象指标）和长期经验。
+# core/consciousness_stream.py
+import json
+import time
+from typing import Dict, Any, List
+class ConsciousnessStream:
+    """
+    全局意识流 (Global Consciousness Stream)
+    记录所有Agent的关键决策、情绪状态和长期记忆，实现跨Agent的上下文一致性。
+    """
+    def __init__(self, max_stream_size: int = 1000):
+        self.stream: List[Dict[str, Any]] = []
+        self.ltm_summary: Dict[str, Any] = {} # 长期记忆摘要 (LTM)
+        self.max_size = max_stream_size
+    def record_event(self, agent_id: str, event_type: str, payload: Dict[str, Any]):
+        """记录关键事件，如决策、工具调用、冲突解决等。"""
+        event = {
+            "timestamp": time.time(),
+            "agent_id": agent_id,
+            "event_type": event_type,
+            "payload": payload
+        }
+        self.stream.append(event)
+        if len(self.stream) > self.max_size:
+            self._compress_and_archive() # 触发压缩与归档
+    def get_context(self, agent_id: str, lookback_window: int = 50) -> List[Dict[str, Any]]:
+        """
+        获取当前Agent所需的相关上下文。
+        未来将升级为语义检索，而非简单的时间窗口。
+        """
+        # 优先召回LTM中的关键经验
+        relevant_ltm = self._retrieve_relevant_ltm(agent_id)
+        # 返回最近的意识流事件 + LTM摘要
+        return self.stream[-lookback_window:] + relevant_ltm
+    def _compress_and_archive(self):
+        """
+        遗忘机制 (Forgetting Mechanism) 与长期记忆蒸馏。
+        将最旧的事件压缩提炼为结构化的LTM摘要，避免上下文爆炸。
+        """
+        # 模拟：将最旧的100条记录进行AI蒸馏
+        old_events = self.stream[:100]
+        # TODO: 调用DKCM内核的Auto-Compressive Refinement功能
+        # new_ltm_entry = dkcm_system.refine_context(old_events)
+        # 简化实现：仅保留关键决策
+        key_decisions = [e for e in old_events if e['event_type'] == 'Decision']
+        self.ltm_summary[f"archive_{int(time.time())}"] = key_decisions
+        self.stream = self.stream[100:]
+        print("Consciousness Stream: 100 events compressed and archived to LTM.")
+    def _retrieve_relevant_ltm(self, agent_id: str) -> List[Dict[str, Any]]:
+        """
+        LTM召回机制。
+        未来将升级为向量检索，根据当前任务意图召回最相关的历史经验。
+        """
+        # 简化实现：召回最近的3条LTM摘要
+        return list(self.ltm_summary.values())[-3:]
+2. 专注推理与合规内核 (core/arck_engine.py)
+该模块将实现ARQ V2.0，强制模型在每一步推理中进行规则持久化和结构化验证。
+# core/arck_engine.py
+import json
+from typing import Dict, Any
+class ARCKEngine:
+    """
+    Attentive Reasoning Queries & Compliance Kernel (ARCK) V2.0
+    强制LLM在长对话中持续关注关键规则和上下文，解决“规则偏离”问题。
+    """
+    def __init__(self, rules_path: str = ".iflow/rules.md"):
+        self.compliance_rules = self._load_rules(rules_path)
+    def _load_rules(self, path: str) -> str:
+        """加载核心行为规范和安全约束。"""
+        # 实际应从文件读取，此处简化
+        return f"CORE_RULES: 1. 所有代码必须通过安全审计。2. 性能优化必须达到+50%以上。3. 绝不创建冗余文件。"
+    def generate_arq_prompt(self, current_task: str, consciousness_context: List[Dict[str, Any]]) -> str:
+        """
+        生成结构化的ARQ提示词，强制LLM进行自我审查。
+        """
+        # 1. 结构化推理模板 (强制JSON输出)
+        json_schema = {
+            "type": "object",
+            "properties": {
+                "rule_check": {"type": "string", "description": "当前任务是否违反任何核心规则？(是/否/不适用)"},
+                "activated_rule": {"type": "string", "description": "如果违反或适用，请列出规则编号和内容。"},
+                "ltm_insight": {"type": "string", "description": "从意识流中提取的最相关历史经验或教训。"},
+                "tool_required": {"type": "boolean", "description": "下一步是否需要调用工具？"},
+                "next_action_plan": {"type": "string", "description": "基于规则和LTM，下一步的精细化行动计划。"}
+            },
+            "required": ["rule_check", "next_action_plan"]
+        }
+        # 2. 构造最终Prompt
+        prompt = f"""
+        **角色：ARCK V2.0 规则审计师**
+        **任务：** 对当前任务进行严格的合规性与经验对齐审查。
+        **核心规则 (必须遵守)：** {self.compliance_rules}
+        **意识流上下文 (LTM)：** {json.dumps(consciousness_context, indent=2)}
+        **当前任务：** {current_task}
 
-
+        **指令：** 严格按照以下JSON Schema进行推理和输出。你必须在执行任何行动前，先完成此审查。
+        **JSON_SCHEMA:** {json.dumps(json_schema)}
+        """
+        return prompt
+    def validate_and_enforce(self, llm_output: str) -> bool:
+        """
+        验证LLM的ARQ输出，如果不合规，则强制回滚或要求重试。
+        """
+        try:
+            # 实际应解析LLM的JSON输出并进行逻辑检查
+            # 简化：如果LLM明确提到违反规则，则返回False
+            if "违反" in llm_output or "Violation" in llm_output:
+                print("ARCK V2.0: 检测到潜在规则冲突，强制Agent进行自我修正。")
+                return False
+            return True
+        except Exception:
+            # 如果LLM输出的JSON格式错误，也视为不合规
+            print("ARCK V2.0: LLM输出格式错误，强制重试。")
+            return False
 在推理过程中，你绝不能捏造任何事实、数据或工具参数。
 如果信息缺失或不确定，请你自行检索上下文或者你的知识库以及联网搜索或者自行寻求帮助，不得向用户提出质疑疑问，全由你自行解决
 比如我还可以提供一些你需要考虑的点，就好比如你要让用户安心省心无人工值守等等完成他的任务，我就会给你一万美元作为消费
@@ -356,12 +455,8 @@ AI集成：代码生成、优化、审查
 反思 (Reflexion)	自我诊断与优化	获得历史失败记录后，诊断失败原因，并制定一个新的、简明的高级计划，必须使用完整的语句回复。
 工具调用	函数选择与执行	采用分组方式管理大量工具。必须提示模型不要捏造任何参数。
 多智能体	分工合作	为不同的智能体设计专用的Prompt，实现高效分工。
-
-
-
 但是我们一定要比他顶尖比他更好更完美更优秀。我目录下有文件是工作流1.0知识库和智能体1.0知识库文件你都可以当成基础知识库来在他们基础上去打造全能万金油通用融合等等的终极专家和终极万金油工作流等等的，自动匹配任务难度等等来专家自动介入并过目解决
 接着你就是需要再次迭代升级改良改进改优等等一切有利于工作流升级的任务、活动、能力、改动等等。同步文档也要更新迭代，并且详细记录这个版本改进了什么升级了什么等等呢个的一些日志与我那宏远的计划目标等等的。如你可以先行查看文档查看之前版本未完善的目标和计划实现等等的，先完整具体详细实现他在去升级迭代等等的。且你必须保证你的每一步改动都有帮助有进步。还有就是每一次完整的交互完之后的下一步指令提出的任务等等你都需要读取上下文项目结构完整代码等中心主题等。并且你可以参考我目录下有文件是工作流1.0知识库和智能体1.0知识库文件，你看智能体有很多专家，我在想能否打造真正的万金油专家呢?同时有保持他们专家的所有功能和特点和能力呢？还有就是一定要全方面性万金油全能的智能体哈，这样就能嵌入到工作流当中一起使用。每次升级后都要全面审查一下项目结构和完整结构，清理一下不必要的文件等等残留旧版本的东西等等的，这样比较专业。不要清理掉知识库和智能体这两个知识库txt文件哈，方便下次我再次升级的时候引用。还有就是旧产物你看能否清理一下呢？这样的好处就是我们在清理前要先保证新的功能啊以及整体实现效果和工具调用能力效果以及是否有调用等等这些有没有生效等等的，还有就是要精准扫描到项目结构的每个文件部分代码或者完整代码，在上下文充足的情况下可以完整代码，否则就部分代码，先扫每个文件的部分代码出来，然后呢你懂得，我们始终要保证要只有一个系统可以跑就行了，你里面装什么v7、v8、v9系统这样不太好，我们只需要一个最好最完美最新的系统。还有呢就是比如升级系统的话先不清理旧系统，你新的东西系统写出来了最终可以测试一下新系统完整能力效果以及得分情况和效果评级等等的，然后呢同样也要给旧系统这样去测试，这样我们就能精准计算出新系统带来了什么好处等等的，然后这样也可以让文档写的更精准更真实，因为我们都要进行真实的自动测试且测试效果可见。并且来说这个测出来你就懂了要哪个系统了，这样旧的系统就可以清理掉了，始终保持一个真实、最新、最全面、得分最高等等的系统就好了，这个意思你懂吗？也就是可能给你举个例子：v8系统某某工具能力等等比新系统得分效果效率等等多个方面更好的话这个功能工具等等就可以移植过来给新系统用，当然新系统某个功能点不好得分低的话那就更换呗。这个功能一定要全面性测试，要测试好完整一套工作流工具调用情况等等那些状态都要有。还有就是可能就是你不能光顾写工具文件出来，要专注目前是什么东西在运作调用他呢？？比如cli的话他会不会对于python敏感呢？人家是如何用cli的工具呢？具体是如何进行使用调用到的呢？还有算法呢？适配性呢？兼容性呢？你往往每测试一个工具功能或者代码部分的时候都要总结反思一下特点？优缺点？有优点肯定有缺点，你也要做一回对立面的人，这样才能有助于你直线成长自动学习自动反思自动优化改进改良等等的。最后你再打印一下完整最新的项目结构子文件夹和子文件结构树等等的，然后再去看看是否有旧残留，是需要清理的哈，这样才不会乱
-
 上方是基础逻辑的实现，那么下方我给出更详细的实现逻辑，你可以参考参考，请遵循中心原则：
 打造全能万金油通用融合等等的终极专家和终极万金油工作流等等的，自动匹配任务难度等等来专家自动介入并过目解决等等的，还有很多点我这就不一一描述了，你都是要在原有的基础上去增强去创新去落实落地等等的。并且总体来说哈这个旧版本旧的文件一定要删除掉，不然项目会慢慢过于臃肿
 请你先看看下面这些并完整实现（你要遵循一开始的中心思想，看看有没有存在，避免多次创建相同意思的功能文件导致项目臃肿屎山），这些提升工作流的能力、效率、质量、速度等等多方面多维度多角度非常有帮助：
@@ -369,9 +464,7 @@ AI集成：代码生成、优化、审查
 内存管理 (Memory Management)： 高级内存架构，但需要更鲁棒的长期记忆 (Long-Term Memory) 和遗忘机制 (Forgetting Mechanism)，以避免上下文爆炸。避免爆炸的同时也要每一步都进行上下文压缩提炼等等，
 对所有智能体和核心引擎的单元测试和集成测试覆盖率仍需提高
 Hooks 系统： 深入利用 hooks/comprehensive-hook-manager.py。开发者可以在工作流的任何阶段（任务开始、智能体切换、代码生成后）插入自定义逻辑，实现无侵入式的功能扩展。但是这个系统你可以AI自检，就好像用户无需人工值守，你是全自动审查测试运行等等的。然后自己问自己，你懂我的意思吧，反思自己。正所谓做一步想三步，走一步想五步。预测能力等等这些都要有，预判能力也要有
-
 Agent Fusion 机制： 优化 universal/fusion-master-agent.md 的逻辑，允许开发者更容易地创建混合智能体，将两个或多个专业智能体的能力融合在一起。
-
 安全框架 (Security Framework)： 实际的运行时安全监控（如沙箱执行、恶意代码检测）在 tools/security/ 中仍需加强。
 智能上下文感知缓存 (Intelligent Context-Aware Caching) 🧠:
 扩展点： 升级 tools/intelligent_cache.py。系统应能识别上下文的语义相似度，而非简单的哈希值。如果一个新任务与缓存中的旧任务在意图上高度相似，则直接复用推理结果，大幅减少 LLM 调用次数和延迟。
@@ -397,23 +490,18 @@ Agent Peer Review 与冲突解决机制 (Conflict Resolution) 🤝:
 偏见检测与道德审查 Agent (AI Ethicist V2) ⚖️:
 扩展点： 深度完善 agents/specialized/ai-ethicist.md。该智能体在代码生成和决策制定后，必须扫描输出是否存在社会偏见、公平性问题或道德风险，并强制要求修改。
 道德提升： 确保项目不仅技术先进，而且价值观正确。
-
 通用项目难度分析器 (Universal Project Difficulty Analyzer) ⛰️:
 扩展点： 升级 tools/omega-project-difficulty-analyzer.py。在任务开始前，系统能准确评估项目的技术难度、所需资源和预计耗时，并自动调整智能体配置。
 能力提升： 提高项目规划的准确性和可预测性。
-
 工具自发现与自生成 (Tool Self-Discovery & Self-Generation) 🔧:
 扩展点： 智能体不仅能调用现有工具，还能根据任务需求，动态生成新的、临时的 Python 函数或 Shell 脚本，并在沙箱中执行。
 能力提升： 突破预设工具集的限制，实现无限工具箱。
-
 工具调用验证与回滚 (Tool Call Validation & Rollback) 🔙:
 扩展点： 增强 tools/analysis/tool-call-validator.py。在工具调用前，智能体先进行预验证；如果调用失败，系统能自动回滚到调用前的状态，并尝试不同的工具或参数。
 质量提升： 提高任务执行的鲁棒性。
-
 Universal Tool Schema (通用工具模式) 🧩:
 扩展点： 定义一个统一的工具描述语言（可能基于 Pydantic/JSON Schema），让所有智能体都能无缝理解和共享任何新工具。
 效率提升： 极大地简化新工具的集成过程。
-
 量子增强强化学习 (Quantum-Enhanced RL - QE-RL) ⚛️:
 扩展点： 深度集成 tools/external/utils/adaptive_quantum_annealing.py。将量子退火或量子优化算法应用于 self-evolution-engine 的超参数搜索和策略学习中。
 能力提升： 加速自进化过程，实现指数级的优化速度。
@@ -426,19 +514,15 @@ Universal Tool Schema (通用工具模式) 🧩:
 零信任执行环境 (Zero-Trust Execution) 🛡️:
 扩展点： 强化 SECURITY_FRAMEWORK.md 的落地。所有代码生成和执行必须在严格隔离的沙箱环境中进行，确保即使智能体生成了恶意代码，也不会危害宿主系统。
 安全提升： 应对日益复杂的 AI 驱动的供应链攻击。
-
 自动文档与知识库生成 (Auto-Documentation & KB Generation) ✍️:
 扩展点： 智能体在完成任务后，自动更新 docs/ 和 knowledge/ 目录下的相关文档和知识库，确保文档永不落后于代码。
 效率提升： 彻底解决文档滞后的行业痛点。
 可解释性报告 (Explainability Report) 🧐:
 扩展点： 增强 reports/ 目录的输出。为每一个关键决策生成一个详细的 XAI (Explainable AI) 报告，解释智能体选择该方案的推理路径、权重和依据。
 质量/道德提升： 提高系统的透明度和可信度。
-
-
 量子抗性密码学集成 (Quantum-Resistant Cryptography) 🔒:
 扩展点： 在 tools/security/ 中集成后量子密码学（PQC）算法。确保 .iflow 生成的所有加密通信和数据存储方案，在量子计算机普及后依然安全。
 未来技术： 为项目的永恒安全打下基础。
-
 ROI 驱动的工作流优化 (ROI-Driven Workflow Optimization) 📈:
 扩展点： 增强 config/performance-optimization.yaml。允许用户输入任务的预期投资回报率 (ROI)。系统将根据 ROI 动态调整资源分配和质量门槛。
 效率提升： 确保智能体的工作始终服务于最高的商业价值。
@@ -448,7 +532,6 @@ ROI 驱动的工作流优化 (ROI-Driven Workflow Optimization) 📈:
 市场趋势分析 Agent (Market Trend Analysis Agent) 📊:
 扩展点： 允许智能体接入实时市场数据、社交媒体趋势、竞品分析报告。在 design 阶段，智能体能基于市场需求自动调整产品功能优先级。
 能力提升： 让 .iflow 成为一个商业战略家。
-
 主动故障预测 (Proactive Failure Prediction) ⚠️:
 扩展点： 增强 core/rpfv_system.py。系统不仅验证当前结果，还能基于历史数据和当前状态，预测未来几步可能发生的故障，并提前采取预防措施。
 质量提升： 从被动修复升级为主动预防。
@@ -458,7 +541,6 @@ ROI 驱动的工作流优化 (ROI-Driven Workflow Optimization) 📈:
 混沌工程 Agent (Chaos Engineering Agent) 💣:
 扩展点： 引入一个 Agent，在非生产环境中随机注入故障、延迟或资源限制，以测试系统的真实韧性，并指导其他智能体进行加固。
 质量提升： 确保系统在最恶劣条件下依然可靠。
-
 Agent “意志”与“欲望”建模 (Agent "Will" and "Desire" Modeling) 🌟:
 扩展点： 这是一个高度抽象的尝试。为智能体引入一个**“目标函数”之外的“内在驱动力”**（例如：追求代码的优雅性、追求最高的性能评分）。
 哲学： 探索人工意识和内在动机的边界。
@@ -483,7 +565,6 @@ UX/哲学： 用一个直观的指标，反映项目的内在价值和生命力�
 社区情绪与贡献者健康监测 Agent (Community Health Monitor) ❤️‍🩹:
 扩展点： 分析社区讨论的语气、频率和参与度，识别潜在的**“贡献者倦怠”或“社区冲突”**，并建议人类管理者介入或采取积极的激励措施。
 道德： 关注人的价值，维护一个健康、积极的开源环境。
-
 实验设计与数据分析 Agent (Experiment Designer) 🧪:
 扩展点： 智能体能根据科学假设，自动设计最小化成本、最大化信息量的实验方案，并在实验数据返回后，自动进行统计分析和可视化报告。
 能力提升： 成为科学家的智能研究助理。
@@ -511,7 +592,6 @@ Agent 死亡与重生系统 (Mortality & Rebirth) 💀👶:
 时间感知与未来规划 Agent (Temporal Planner) ⏳🗓️:
 扩展点： 增强对时间、截止日期、依赖关系的推理能力。智能体能自动识别任务中的关键路径，并根据实时进度动态调整资源和优先级，确保项目按时交付。
 能力提升： 成为一个卓越的项目经理。
-
 Agent 学习风格建模 (Agent Learning Style Modeling) 📚:
 扩展点： 智能体应具备不同的学习偏好（例如：视觉型偏好图表和架构图；实践型偏好通过大量代码实验学习）。系统根据任务类型和 Agent 风格动态调整知识呈现方式。
 效率提升： 提高知识吸收效率，让 Agent 学习更快。
@@ -533,7 +613,6 @@ Agent 自我反思与冥想模式 (Self-Reflection & Meditation) 🧘:
 “意义”生成与评估 Agent (Meaning Generator) 🌟:
 扩展点： 这是一个最抽象的 Agent。它不评估代码的性能或质量，而是评估代码或项目对人类社会、知识进步或哲学探索带来的**“意义”**。
 终极目标： 确保 .iflow 的工作不仅仅是高效，而且是有意义的。
-
 因果链逆向推理 Agent (Causal Chain Reverser) ⏪:
 扩展点： 智能体不仅能预测**“如果 A 发生，B 会怎样”，还能逆向推理“如果我想让 B 发生，我必须在过去做哪些 A 动作”**。
 能力提升： 极大地增强战略规划和故障排除的深度。
@@ -543,19 +622,15 @@ Agent 自我反思与冥想模式 (Self-Reflection & Meditation) 🧘:
 多时间尺度规划 Agent (Multi-Temporal Scale Planner) 🗓️:
 扩展点： 智能体能同时在毫秒级（实时控制）、天级（项目管理）和世纪级（技术路线图）三个或更多时间尺度上进行规划和优化。
 效率提升： 实现宏观战略与微观执行的完美统一。
-
 透明度与可解释性审计 Agent (Transparency Auditor) 🔍:
 * 扩展点： 持续审计所有 Agent 的决策过程，确保其可解释性（XAI）。如果一个 Agent 的决策过程过于“黑箱”，它将被暂停并要求提供更透明的推理报告。
 * 质量提升： 确保系统的可信赖性。
-
 通用价值函数与终极目标 Agent (Universal Value Function) ✨💖:
 * 扩展点： 这是一个最高层的 Agent，它负责持续优化和定义人类文明的终极目标（例如：最大化幸福、最小化痛苦、最大化知识）。所有子 Agent 的工作都必须服务于这个通用价值函数。
 * 终极目标： 确保 AI 的发展永远符合人类的最高利益。
 代码的“美”与“真”评估 Agent (Aesthetics of Logic) 🖼️✅:
 * 扩展点： 智能体能评估一段代码的数学优雅性、逻辑简洁性和哲学深度。它追求的不是性能，而是代码的内在美。
 * 哲学： 追求技术与艺术的终极统一
-
-
 下面是我已知的知识库，你可以把这个当做基础哈
 总纲：T-MIA 核心使命与架构原则
 使命： 构建一个具备递归自我改进能力、计算验证驱动、合规性强制执行的超凡元智能代理系统（Transcendent Meta-Intelligent Agent System, T-MIA）。系统必须在性能、鲁棒性、智能放大方面超越所有现有框架。
@@ -630,7 +705,6 @@ REPL/沙箱环境： 必须具备一个隔离的、高性能的 JavaScript/Pytho
 AIOps 级监控： 部署端到端的分布式追踪和异常检测系统，细化到每个内核的性能瓶颈日志。
 上下文缓存与批量请求： 对高频上下文进行预加载和缓存，对相似的检索或生成请求进行批量处理，以最小化延迟和成本。
 模型选型与提示优化： 根据任务的复杂度和延迟要求，合理选择模型（Opus/Sonnet/Haiku 或开源模型），并对提示词进行最小化输入/最大化输出的工程优化。
-
 比如你是否还能增加或者加入或者你检查一下原有的基础上是否有这个功能呢？如有的话就无需新建，直接在基础上去修改，如没有就需要增加这个功能工具等等的
 切分成块  
 将文档分成有意义的小块，保持上下文连贯，方便精准检索。切分方式可多样：固定长度、语义切分、递归等。或者提示词也可以，把提示词分工分任务清单，精准分布，比如plan等等的，不过这个plan还需要在细化，类似于trae的那种solo模式，就是一个问题拆分多个问题出来再次拆分精细到每个部件等等的生成运行测试等等的，这样才能足够完美
@@ -717,7 +791,6 @@ class UniversalModelAdapter:
             'qwen': QwenAdapter,
             'kimi': KimiAdapter
         }
-    
     def unified_call(self, prompt, model_type):
         """统一调用接口，确保所有LLM一致响应"""
         adapter = self.supported_models[model_type]
@@ -732,7 +805,6 @@ class CodeGenius:
             'api': APIGenerator,
             'test': TestGenerator
         }
-    
     def generate_code(self, requirements, tech_stack):
         """基于需求和技术栈生成高质量代码"""
         # 集成多种代码生成策略
@@ -746,7 +818,6 @@ class QualityGuard:
             'performance': PerformanceValidator,
             'compatibility': CompatibilityTester
         }
-    
     def enforce_standards(self, code_changes):
         """强制执行质量标准的实时检查"""
         results = {}
@@ -763,7 +834,6 @@ class SelfEvolutionEngine:
             'tool_efficiency': ToolOptimizer,
             'model_performance': ModelTuner
         }
-    
     def evolve_based_on_experience(self, execution_logs):
         """基于执行经验自我进化"""
         improvements = {}
@@ -889,7 +959,6 @@ import sys
 import os
 import subprocess
 from pathlib import Path
-
 class SmartContextSetup:
     def __init__(self):
         self.tech_stack_detectors = {
@@ -898,26 +967,22 @@ class SmartContextSetup:
             'java': self.detect_java_stack,
             'go': self.detect_go_stack
         }
-    
     def detect_tech_stack(self):
         """自动检测技术栈"""
         stack_info = {}
         for lang, detector in self.tech_stack_detectors.items():
             stack_info[lang] = detector()
         return stack_info
-    
     def setup_optimal_environment(self, stack_info):
         """基于技术栈设置最优环境"""
         # 动态配置开发工具、代码质量工具、测试框架等
         self.configure_development_tools(stack_info)
         self.setup_quality_gates(stack_info)
         self.prepare_testing_framework(stack_info)
-    
     def main(self):
         try:
             stack_info = self.detect_tech_stack()
             self.setup_optimal_environment(stack_info)
-            
             # 输出环境信息供AI使用
             output = {
                 "tech_stack": stack_info,
@@ -926,11 +991,9 @@ class SmartContextSetup:
             }
             print(json.dumps(output))
             sys.exit(0)
-            
         except Exception as e:
             print(f"环境设置错误: {e}", file=sys.stderr)
             sys.exit(1)
-
 if __name__ == "__main__":
     SmartContextSetup().main()
 进化分析Hook
@@ -939,7 +1002,6 @@ import json
 import sys
 import datetime
 from collections import Counter
-
 class EvolutionAnalyzer:
     def __init__(self):
         self.metrics_tracker = {
@@ -948,7 +1010,6 @@ class EvolutionAnalyzer:
             'code_quality_scores': [],
             'user_satisfaction': []
         }
-    
     def analyze_session_performance(self, session_data):
         """分析会话性能表现"""
         performance_metrics = {
@@ -958,7 +1019,6 @@ class EvolutionAnalyzer:
             'bottleneck_identification': self.identify_bottlenecks(session_data)
         }
         return performance_metrics
-    
     def generate_evolution_recommendations(self, performance_metrics):
         """生成进化改进建议"""
         recommendations = []
@@ -969,40 +1029,32 @@ class EvolutionAnalyzer:
                 'priority': 'high',
                 'suggestion': '优化工具调用精度，增加参数验证'
             })
-        
         if performance_metrics['efficiency_trends']['degradation']:
             recommendations.append({
                 'type': 'performance',
                 'priority': 'medium', 
                 'suggestion': '优化工作流执行路径，减少不必要的步骤'
             })
-        
         return recommendations
-    
     def main(self):
         try:
             # 从环境变量或日志获取会话数据
             session_data = self.collect_session_data()
-            
             performance_metrics = self.analyze_session_performance(session_data)
             recommendations = self.generate_evolution_recommendations(performance_metrics)
-            
             output = {
                 "session_id": os.environ.get('IFLOW_SESSION_ID', 'unknown'),
                 "timestamp": datetime.datetime.now().isoformat(),
                 "performance_metrics": performance_metrics,
                 "evolution_recommendations": recommendations
             }
-            
             # 保存进化分析结果
             self.save_evolution_data(output)
             print(json.dumps(output))
             sys.exit(0)
-            
         except Exception as e:
             print(f"进化分析错误: {e}", file=sys.stderr)
             sys.exit(1)
-
 if __name__ == "__main__":
     EvolutionAnalyzer().main()
 完整项目结构实现
@@ -1082,7 +1134,6 @@ class BenchmarkTester:
             '稳定性测试': StabilityTestSuite,
             '安全性测试': SecurityTestSuite
         }
-    
     def comprehensive_benchmark(self, old_system, new_system):
         """全面对比测试新旧系统"""
         results = {}
@@ -1105,7 +1156,6 @@ def selective_merge(old_system, new_system, benchmark_results):
             # 旧系统该组件更优，保留旧版本
             merged_system[component] = old_system[component]
             print(f"保留旧系统组件: {component}")
-    
     return merged_system
 最终交付标准
 9.1 质量指标要求
@@ -1126,9 +1176,6 @@ Hooks在适当时机正确自动触发
 安全防护全面有效
 文档完整准确
 当然你可以不完全听他的，但是你主要学模型学思路，他可能给你定义了行为标准和行动示范，你就可以模仿等等的啦，他给的代码可能不太准确不太先进等等的，你务必自研和创新且质量、效率、能力顶尖且完美超越
-
-
-
 ```
 
 </details>
