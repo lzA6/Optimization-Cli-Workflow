@@ -25,6 +25,63 @@
 还有就是不一定要一直创建创造新的同样文件出来，这样会让项目臃肿，在我这些主题的需求等等来看你先一步打印项目结构的完整项目结构包括子文件夹和子文件就行了，接着我们在匹配是否有说到点上？又或者哪个技术点需要改进都可以写进清单，跟随后面的指令在优化改进等等的，就是也要伴随出测试、效果反馈等等的那些。我的主题：
 首选确保工作流能正确适配市面上所有llm模型、比如gemini模型、glm、GPT、Claude、qwen、等等还有太多大模型我我就不一一举例了反正所有大模型都要能智能自动匹配等等的，并且匹配精度调用工具函数等等精度要原生，也就是最好100%，且效率能力等等那些都要翻倍最快最好最完美等等。
 总体要让工作流质量、速度、效率、能力、工具的使用等等效果翻倍，无bug，让大模型能清楚清晰精准运用到，兼容性全面性适配性都要最顶级闭源同款一样的
+还有我这边可以提供一下你做工作流的格式特点教程文档：
+比如我下面实现就拿简单的一个举例：
+本文将展示如何快速将Claude Code或者自定义的Skill转换为iflow中的工作流，只需要拉取自己上传的工作流在iflow cli中使用即可。
+首先从官方文档中了解工作流目录结构：
+项目根目录/
+├── .iflow/                 # iFlow CLI配置和资源目录
+│ ├── agents/               # 智能体配置文件夹
+│ │ ├── agent1.md           # 具体的agent配置文件
+│ │ └── agent2.md           # 更多agent配置
+│ ├── commands/             # 自定义命令文件夹
+│ │ ├── command1.md         # 具体的command实现
+│ │ └── command2.md         # 更多command实现
+│ ├── IFLOW.md              # 详细的工作流文档和配置
+│ └── settings.json         # mcp相关配置
+├── [项目文件夹]/            # 您的项目文件和代码
+└── IFLOW.md               # 工作流配置和说明文件
+我们以Claude Code PPT文档Skill作为例子。
+首先从github拉取相应的Skill，地址 https://github.com/anthropics/skills
+打开项目，可以看到ppt相关的Skill目录和内容：
+根据工作流目录结构，我们在项目目录下新建.iflow文件夹
+mkdir -p .iflow
+可以看到项目中已经有.iflow文件夹
+我们进入.iflow文件夹下，创建agents文件夹用来放Skill相关的文件，创建commands文件夹用来放工作流的command文档
+接下来在agents下创建一个pptx的文件夹，这个文件夹的名字取决于你想实现的skill的名字，例如在当前的示例中我们想创建一个名为pptx的生成ppt工作流，就把这个文件夹取名pptx
+把pptx skill下除了SKILL.md的内容都移动到agents的pptx文件夹下
+红框部分全部移动到agents/pptx目录下，最终结果如下
+剩下的SKILL.md文件首先改名为我们调用工作流的指令，比如我们想用/pptx调用该工作流，就改名为pptx.md，然后将这个md文件移动到.iflow的commands文件夹下
+在pptx.md中添加一些对workflow的描述，一般来说描述如下
+name: pptx               
+                        # 工作流名称
+description: "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
+                        # 工作流描述
+license: Proprietary. LICENSE.txt has complete terms
+                        # 协议描述
+workflow_trigger: /pptx 
+                        # workflow触发指令
+agent_path: .iflow/agents/pptx 
+                        # 标记该workflow的agent相对路径
+这边呢我拿了.iflow做示范，由于前面有.的话我大部分AI工作不了，你可以把filow先当做有点的.iflow，这样子后面实际使用的时候我在自行加.就好啦。
+这只是一个示例方向标准哈
+项目 '测试专门用的目录' 的结构树:
+📂 测试专门用的目录/
+    📂 .iflow/
+        📂 agents/
+            📂 artifacts-builder/
+                📄 LICENSE.txt
+                📄 SKILL.md
+                📂 scripts/
+                    📄 bundle-artifact.sh
+                    📄 init-artifact.sh
+        📂 commands/
+            📄 artifacts-builder.md
+比如这样
+执行指令
+zip -r pptx.zip . -x pptx.zip
+得到pptx.zip压缩文件
+将zip文件上传到workflow开放平台
 我感觉目前的能力还是不足，可能是现版本未进行测试，你可以先行全面进行测试一下然后呢在进行修复漏洞、语法、bug等等再提升迭代升级等等的，这个是可以加入todo、plan任务清单的，你务必全面审查我的项目结构等等的，查漏补漏自行扩展思维思想去新增新功能等等的，不然你一直在已有的算法功能完整的基础上一直去新建另外一个一模一样的这样是不行的，你务必做出更好的改变添加等等的。
 比如我还可以给你点建议和方向，你都可以进行参考，不过你还需要自行想象扩展更好的方向方法等等的，不一定要全用我的方向和方法，我们始终保持着让这个工作流变得最完美、最好、最快、最全面、最全能、最智能、全自动切换角色、模式、指令、等等的。可以了解一下yolo模式，让用户的一次输入能直接解决用户的问题根基，直接解决且无bug无虚假等等可实际运用运行等
 下面是一些参考哈：
