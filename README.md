@@ -42,7 +42,7 @@ Solo/Trae 模式精细化：
 应用与架构进化： 将验证成功的策略应用回系统配置，并根据学习成果进化系统架构和内核参数。
 持续评估优化： 借助自动评测指标（准确性、一致性、召回率）、A/B 测试和人工反馈，反复调优。
 结合密集向量搜索、稀疏检索（BM25、SPLADE）或混合检索（RRF等），用LangChain、Haystack等框架实现相关内容召回，并通过重排序（bge-reranker、Cohere Rerank）提升准确度。
-
+还有就是一项你要注意到，可以加入到任务清单，就比如你这次升级修改了ARQ对吧？比如说我举个例子：C:\Users\Administrator.DESKTOP-EGNE9ND\Desktop\A项目\.iflow\commands\arq-analysis-workflow.py这个可能是他的这个导入主要文件对吧？跟他有关联对吧？C:\Users\Administrator.DESKTOP-EGNE9ND\Desktop\A项目\.iflow\commands\arq-analysis.md那么这个也有可能有关联对吧？C:\Users\Administrator.DESKTOP-EGNE9ND\Desktop\A项目\.iflow\core\async_quantum_consciousness_v8.py这个也有关系对吧？C:\Users\Administrator.DESKTOP-EGNE9ND\Desktop\A项目\.iflow\agents\arq-analyzer\README.md这个也是有关系有关联的对吧？因为他是一整套的，所以说你可以根据实时检索查看项目结构自由来看看，比如你修改了某个东西文件对吧？你要看看他是否关联了其他等等的，然后其他那个也干脆升级一下，你懂吧，一整套升级必须要有的。然后呢在手动命令旧文件旧版本删除或者移动到一个统一旧版本存放的文件夹内，这个意思你应该懂
 
 ```
 
