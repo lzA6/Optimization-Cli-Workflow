@@ -146,7 +146,7 @@ GPU 实现和快速 k 选择算法在 “使用 GPU 进行十亿级相似性搜�
 基于图的索引方法 NSG 来自 “Fast Approximate Nearest Neighbor Search With The Navigating Spreading-out Graph” < https://arxiv.org/abs/1707.00143 >`_, Cong Fu et al, VLDB 2019。
 来自 Julieta Martinez 等人在 ECCV 2016 年发表的 “重新审视加性量化” 中的局部搜索量化方法，以及 Julieta Martinez 等人在 ECCV 2018 年发表的“LSQ++：多码本量化中更低的运行时间和更高的召回率” 。
 残差量化器实现来自 “Improved Residual Vector Quantization for High-dimensional Approximate Nearest Neighbor Search” ，Shicong Liu 等人，AAAI'15。
-
+别忘记了knowledge_base这个知识库等等他跟arq是有关链的，同步也要关联适配等等的，其他有关联到也是一样噢，不要遗漏
 
 ```
 
